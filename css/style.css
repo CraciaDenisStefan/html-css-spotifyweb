@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* DESKTOP  FIRS */
+/* INIZIO SIDEBAR */
+.sidebar{
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    background-color: black;
+    height: 100%;
+}
+/* FINE SIDEBAR */
+
+/* INIZIO HEADER */
+header{
+    width: 100vw ;
+    background-color: rgba(128, 128, 128, 0.445);
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 3;  
+}
+/* FINE HEADER */
+
+/* INIZIO BOTTOMBAR */
+.bottombar{
+    width: 100vw;
+    background-color: red;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    z-index: 6;
+}
+
+/* FINE BOTTOMBAR */
+
+/* INIZIO MAIN */
+main{
+    width: 100vw ;
+    background-color: blue;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 250px;
+}
+.prova{
+    width: 100%;
+    height: 300px;
+    background-color: green;
+}
+/* FINE MAIN */
