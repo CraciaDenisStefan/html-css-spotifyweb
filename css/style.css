@@ -178,12 +178,12 @@ main{
     background-color: chartreuse;
     margin: 10px;
 }
-/* INIZIO SECTION JOHN DOE */
-.row_john_doe{
+/* INIZIO SECTION JOHN DOE e Artisti popolari */
+.row_33{
     width: 33% ;
     background-color: red;
 }
-.john{
+.margin{
     margin: 10px;
 }
 
