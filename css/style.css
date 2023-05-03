@@ -164,4 +164,17 @@ main{
     margin: 10px;
     background-color: chartreuse;
 }
+.container_main{
+    width: 99%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: coral;
+    height: 100px;
+}
+.col_recently{
+    width: calc(100% / 6 - 20px);
+    height: 30px;
+    background-color: chartreuse;
+    margin: 10px;
+}
 /* FINE MAIN */
