@@ -75,6 +75,52 @@ header{
     bottom: 0;
     z-index: 6;
 }
+/* Display flex */
+.flex{
+    display: flex;
+}
+.col_50{
+    width: 50%;
+    height: 20px;
+    background-color: aqua;
+}
+.container_bottombar{
+    width: 99%;
+    margin: 0 auto;
+    background-color: blue;
+}
+/* Inizio prima colonna da 20% */
+.row_bottombar{
+    margin-top: 10px;
+}
+.col_bottombar_20{
+    width: 20%;
+    height: 80px;
+    background-color: yellow;
+    align-items: center;
+}
+.col_bottombar_60{
+    width: 60%;
+    height: 80px;
+    background-color: green;
+}
+.content_first_right{
+    width: 30%;
+}
+.content_first_left{
+    width: 70%;
+}
+.col_first_left{
+    width: 30%;
+    background-color: blueviolet;
+    height: 20px;
+}
+.col_first_right{
+    width: 70%;
+    background-color: rgb(138, 124, 151);
+    height: 20px;
+}
+
 
 /* FINE BOTTOMBAR */
 
