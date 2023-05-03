@@ -120,6 +120,22 @@ header{
     background-color: rgb(138, 124, 151);
     height: 20px;
 }
+ /* Inizio colonna da 60% in mezzo  */
+ .col_bottombar_60.flex{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .col_middle_static{
+    width: 200px;
+    height: 20px;
+    background-color: yellowgreen;
+ }
+ .col_middle_adaptive{
+    width: 70%;
+    height: 20px;
+    background-color: burlywood;
+ }
 
 
 /* FINE BOTTOMBAR */
