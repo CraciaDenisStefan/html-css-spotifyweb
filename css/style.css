@@ -136,6 +136,12 @@ header{
     height: 20px;
     background-color: burlywood;
  }
+ /* Inizio colonna da 20% finale */
+ .container_last{
+    width: 100%;
+    height: 20px;
+    background-color: green;
+ }
 
 
 /* FINE BOTTOMBAR */
