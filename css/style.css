@@ -171,10 +171,20 @@ main{
     background-color: coral;
     height: 100px;
 }
+/* INIZIO SECTION RECENTLY */
 .col_recently{
     width: calc(100% / 6 - 20px);
     height: 30px;
     background-color: chartreuse;
     margin: 10px;
 }
+/* INIZIO SECTION JOHN DOE */
+.row_john_doe{
+    width: 33% ;
+    background-color: red;
+}
+.john{
+    margin: 10px;
+}
+
 /* FINE MAIN */
