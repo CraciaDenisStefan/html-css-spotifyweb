@@ -103,6 +103,11 @@ hr{
     font-size: 17px;
     padding-left: 5px;
 }
+.border{
+    border-left: 1px solid greenyellow;
+    position: relative;
+    left: 0;
+}
 /* FINE SIDEBAR */
 /* INIZIO HEADER */
 header{
@@ -215,7 +220,7 @@ header{
 /* INIZIO MAIN */
 main{
     width: 100vw ;
-    background-color: blue;
+    background-color: #1a1f25;
     height: 100vh;
     padding-top: 80px;
     padding-left: 200px;
@@ -224,17 +229,21 @@ nav.flex{
     justify-content: center;
 }
 .ul_nav.flex{
-    background-color: red;
-    width: 60%;
+    width: 70%;
     flex-wrap: wrap;
     list-style-type: none;
     justify-content: center;
 }
 .nav_li{
-    width: 50px;
-    height: 20px;
     margin: 10px;
-    background-color: chartreuse;
+    font-size: 10px;
+    color:gray;
+}
+.underline{
+    width: 40%;
+    color: greenyellow;
+    margin: 0 auto;
+    
 }
 .container_main{
     width: 99%;
