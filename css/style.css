@@ -6,7 +6,7 @@
 /* DESKTOP  FIRS */
 /* INIZIO SIDEBAR */
 .sidebar{
-    width: 250px;
+    width: 200px;
     position: fixed;
     top: 0;
     left: 0;
@@ -18,7 +18,7 @@
     width: 90%;
     margin: 0 auto;
     background-color: white;
-    height: calc(100% - 100px);
+    height: calc(100% - 80px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,6 +33,10 @@
     height: 80px;
     background-color: aqua;
     margin: 5px;
+}
+
+.logo_smart{
+    display: none;
 }
 
 .list_songs{
@@ -62,7 +66,7 @@
 header{
     width: 100vw ;
     background-color: rgba(128, 128, 128, 0.445);
-    height: 100px;
+    height: 80px;
     position: fixed;
     top: 0;
     z-index: 3;  
@@ -81,7 +85,7 @@ header{
 .bottombar{
     width: 100vw;
     background-color: red;
-    height: 100px;
+    height: 80px;
     position: fixed;
     bottom: 0;
     z-index: 6;
@@ -162,8 +166,8 @@ main{
     width: 100vw ;
     background-color: blue;
     height: 100vh;
-    padding-top: 100px;
-    padding-left: 250px;
+    padding-top: 80px;
+    padding-left: 200px;
 }
 nav.flex{
     justify-content: center;
@@ -230,4 +234,31 @@ nav.flex{
     }
     /* Fine main */
     
+}
+@media screen and (max-width: 600px){
+    /* Inizio sidebar */
+    .logo_desk{
+        display: none;
+    }
+    .logo_smart{
+        display: block;
+    }
+    .right_side{
+        display: none;
+    }
+    .playlist, .list_songs{
+        display: none;
+    }
+    .sidebar{
+        width: 50px;
+    }
+    .left_side{
+        width: 100%;
+    }
+    /* Fine sidebar */
+    /* Inizio main */
+    main{
+        padding-left: 50px;
+    }
+    /* Fine main */
 }
