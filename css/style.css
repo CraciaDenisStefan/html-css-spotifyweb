@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
 /* DESKTOP  FIRS */
 /* INIZIO SIDEBAR */
 .sidebar{
@@ -65,19 +68,28 @@
 /* INIZIO HEADER */
 header{
     width: 100vw ;
-    background-color: rgba(128, 128, 128, 0.445);
+    background-color: rgba(0, 0, 0, 0.356);
     height: 80px;
     position: fixed;
     top: 0;
     z-index: 3;  
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .container_header{
-    margin: 20px;
-    background-color: yellow;
-    width: 100px;
     height: 50px;
+    margin-right: 5px;
+    align-items: center;
+}
+.upgrade{
+    font-size: 13px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.80);
+    border: 2px solid rgba(255, 255, 255, 0.80);
+    border-radius: 50px;
+    padding:5px 35px ;
+    font-family: 'Konkhmer Sleokchher', cursive;
 }
 /* FINE HEADER */
 
