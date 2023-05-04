@@ -152,8 +152,6 @@ header{
 }
 .col_50{
     width: 50%;
-    height: 20px;
-    background-color: aqua;
 }
 .container_bottombar{
     width: 99%;
@@ -221,9 +219,9 @@ header{
 main{
     width: 100vw ;
     background-color: #1a1f25;
-    height: 100vh;
     padding-top: 80px;
     padding-left: 200px;
+    padding-bottom: 80px;
 }
 nav.flex{
     justify-content: center;
@@ -249,23 +247,37 @@ nav.flex{
     width: 99%;
     margin: 0 auto;
     margin-top: 20px;
-    background-color: coral;
-    height: 100px;
+}
+.covers{
+    width: 100%;
+}
+.describtion{
+    font-size: 10px;
+}
+.text_align{
+    text-align: center;
+    font-size: 13px;
+}
+.title_main{
+    margin-left: 10px;
 }
 /* INIZIO SECTION RECENTLY */
+.row_recently{
+    margin-bottom: 30px;
+}
 .col_recently{
     width: calc(100% / 6 - 20px);
-    height: 30px;
-    background-color: chartreuse;
     margin: 10px;
 }
 /* INIZIO SECTION JOHN DOE e Artisti popolari */
 .row_33{
     width: 33% ;
-    background-color: red;
 }
 .margin{
     margin: 10px;
+}
+.radius{
+    border-radius: 50%;
 }
 
 /* FINE MAIN */
@@ -327,6 +339,8 @@ nav.flex{
     main{
         padding-left: 40px;
     }
-
+    .underline{
+        display: block;
+    }
     /* Fine main */
 }
