@@ -30,19 +30,30 @@
 }
 .col_sidebar{
     width: calc(100% - 10px);
-    height: 100px;
+    height: 80px;
     background-color: aqua;
     margin: 5px;
 }
-.col_sidebar.overflow{
+
+.list_songs{
     overflow-y: auto;
+    height: 30vh;
+    background-color: rgba(255, 0, 0, 0.507);
+    line-height: 25px;
 }
 .install{
     width: calc(100% - 10px);
-    height: 100px;
+    height: 80px;
     background-color: yellow;
     margin: 5px;
     z-index: 1;
+}
+/* COLONNE HOME E LIBRERIA */
+.content_side{
+    width: 30%;
+    height: 15px;
+    margin: 5px;
+    background-color: red;
 }
 
 /* FINE SIDEBAR */
