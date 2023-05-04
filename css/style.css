@@ -165,7 +165,13 @@ main{
     padding-top: 100px;
     padding-left: 250px;
 }
+nav.flex{
+    justify-content: center;
+}
 .ul_nav.flex{
+    background-color: red;
+    width: 60%;
+    flex-wrap: wrap;
     list-style-type: none;
     justify-content: center;
 }
@@ -199,3 +205,29 @@ main{
 }
 
 /* FINE MAIN */
+
+@media screen and (max-width: 900px){
+    /* Inizio main */
+    .row_recently{
+        flex-wrap: wrap;
+    } 
+   .col_recently{
+        width: calc(100% / 4 - 20px);
+    }
+    .row_33{
+         width: 50% ;
+    }
+    /* Fine main */
+
+}
+@media screen and (max-width: 768px){
+    /* Inizio main */
+    .col_recently{
+        width: calc(100% / 2 - 20px);
+    }
+    .row_33{
+        width: 100%;
+    }
+    /* Fine main */
+    
+}
