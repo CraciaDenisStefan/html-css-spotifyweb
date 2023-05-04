@@ -5,8 +5,16 @@
 }
 body{
     font-family: 'Konkhmer Sleokchher', cursive;
+    color: white;
 }
 /* DESKTOP  FIRS */
+/* Classe comune per il colore */
+.text_gray{
+    color: gray;
+}
+.svg_sidebar{
+    filter: invert(0.10);
+}
 /* INIZIO SIDEBAR */
 .sidebar{
     width: 200px;
@@ -18,9 +26,9 @@ body{
     height: 100%;
 }
 .container_sidebar{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    background-color: white;
+    padding:10px 10px 0 10px;
     height: calc(100% - 80px);
     display: flex;
     flex-direction: column;
@@ -33,11 +41,12 @@ body{
 }
 .col_sidebar{
     width: calc(100% - 10px);
-    height: 80px;
-    background-color: aqua;
     margin: 5px;
 }
-
+/* Inizio logo top 0 left 0 */
+.logo_desk{
+    width: 80%;
+}
 .logo_smart{
     display: none;
 }
@@ -45,26 +54,56 @@ body{
 .list_songs{
     overflow-y: auto;
     height: 30vh;
-    background-color: rgba(255, 0, 0, 0.507);
-    line-height: 25px;
+    line-height: 30px;
 }
 .install{
     width: calc(100% - 10px);
     height: 80px;
-    background-color: yellow;
+   
     margin: 5px;
     z-index: 1;
 }
 /* COLONNE HOME E LIBRERIA */
 .content_side{
-    width: 30%;
-    height: 15px;
-    margin: 5px;
-    background-color: red;
+    width: 15%;
+    margin: 2px;
 }
-
+.right_side{
+    width: 100%;
+}
+.fa-sharp{
+    font-size: 45px;
+    vertical-align: middle;
+    margin-right: 5px;
+    color: gray;
+}
+.size_sidebar{
+    font-size: 11px;
+}
+.created_playlist{
+    font-size: 15px;
+}
+/* Inizio parte sotto */
+.download{
+    width: 15px;
+    margin-right: 6px;
+    vertical-align: top;
+}
+.profile{
+    border-radius: 50%;
+    background-color: gray;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+hr{
+    margin: 1px 0 10px 0;
+}
+.size_name{
+    font-size: 17px;
+    padding-left: 5px;
+}
 /* FINE SIDEBAR */
-
 /* INIZIO HEADER */
 header{
     width: 100vw ;
@@ -262,15 +301,23 @@ nav.flex{
         display: none;
     }
     .sidebar{
-        width: 50px;
+        width: 40px;
     }
     .left_side{
-        width: 100%;
+        width: 100%; 
+        text-align: center;
+    }
+    .container_sidebar{
+        padding: 0;
+    }
+    hr{
+        display: none;
     }
     /* Fine sidebar */
     /* Inizio main */
     main{
-        padding-left: 50px;
+        padding-left: 40px;
     }
+
     /* Fine main */
 }
