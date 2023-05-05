@@ -33,8 +33,8 @@
                             <div class="content_side left_side">
                                 <img  class="svg_sidebar border" src="./img/home.svg" alt="">
                             </div>
-                            <div class="content_side right_side size_sidebar">
-                                Home
+                            <div class="content_side right_side size_sidebar color_white">
+                               Home
                             </div>
                         </div>
                         <div class="flex">
@@ -42,7 +42,7 @@
                                 <img class="svg_sidebar" src="./img/search.svg" alt="">
                             </div>
                             <div class="content_side right_side text_gray size_sidebar">
-                                Cerca
+                                <a href="#">Cerca</a>
                             </div>
                         </div>
                         <div class="flex">
@@ -50,7 +50,7 @@
                                 <img class="svg_sidebar" src="./img/libreria.svg" alt="">
                             </div>
                             <div class="content_side right_side text_gray size_sidebar">
-                                La tua libreria
+                               <a href="#">La tua libreria</a>
                             </div>
                         </div>
                     </div>
@@ -59,18 +59,18 @@
                     <!-- Colonna playlist -->
                     <h5>PLAYLIST</h5>
                     <span class="plus"><i class="fa-sharp fa-solid fa-square-plus"></i></span>
-                    <span class="created_playlist text_gray">Crea Playlist</span>
+                    <span class="created_playlist text_gray"><a href="#">Crea Playlist</a></span>
                 </div>
                 <div class="col_sidebar list_songs">
                     <!-- Colonna lista canzoni -->
                     <ul class="text_gray size_sidebar">
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
+                        <a href="#"><li>Nome Playlist</li></a>
+                        <a href="#"><li>Nome Playlist</li></a>
+                        <a href="#"><li>Nome Playlist</li></a>
+                        <a href="#"><li>Nome Playlist</li></a>
+                        <a href="#"><li>Nome Playlist</li></a>
+                        <a href="#"><li>Nome Playlist</li></a>
+                        <a href="#"><li>Nome Playlist</li></a>
                     </ul>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                             <img class="svg_sidebar download" src="./img/download.svg" alt="">
                         </div>
                         <div class="content_side right_side text_gray size_sidebar">
-                            Installa app
+                            <a href="#">Installa app</a>
                         </div>
                     </div>
                     <hr>
@@ -118,16 +118,16 @@
                             </div>
                             <div class="col_first_right">
                                 <h4 class="h4_bottombar">Sinister</h4>
-                                <p class="text_gray describtion">Brano Nome</p>
+                                <p class="text_gray describtion under">Brano Nome</p>
                             </div>
                     </div>
                     <div class="content_first_right flex">
                         <!-- Inizio contenuti della prima colonna (sinistra)-->
                         <div class="col_50 text_gray">
-                            <i class="fa-regular fa-heart"></i>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
                         </div>
                         <div class="col_50 text_gray">
-                            <i class="fa-regular fa-folder"></i>
+                           <a href="#"> <i class="fa-regular fa-folder"></i></a>
                         </div>
 
                     </div>
@@ -179,12 +179,12 @@
          <nav class="flex">
              <!-- Inizio Nav -->
              <ul class="ul_nav flex">
-                <li class="nav_li">IN EVIDENZA <hr class="underline"></li>
-                <li class="nav_li">PODCAST</li>
-                <li class="nav_li">CLASSIFICHE</li>
-                <li class="nav_li">GENERI E MOOD</li>
-                <li class="nav_li">NUOVE USCITE</li>
-                <li class="nav_li">SCOPRI</li>
+                <li class="nav_li"><a href="#">IN EVIDENZA </a><hr class="underline"></li>
+                <li class="nav_li"><a href="#">PODCAST</a></li>
+                <li class="nav_li"><a href="#">CLASSIFICHE</a></li>
+                <li class="nav_li"><a href="#">GENERI E MOOD</a></li>
+                <li class="nav_li"><a href="#">NUOVE USCITE</a></li>
+                <li class="nav_li"><a href="#">SCOPRI</a></li>
              </ul>
          </nav>
         <section class="recently">
@@ -193,32 +193,50 @@
                 <h2 class="title_main">Recently played</h2>
                 <div class="row_recently flex">
                     <div class="col_recently text_align">
-                        <img class="covers" src="./img/metal_lifting.jpg" alt="">
+                        <div class="position_relative">
+                            <img class="covers" src="./img/metal_lifting.jpg" alt=""> 
+                            <div class="play_absolute"><i class="fa-regular fa-circle-play play_middle"></i></div>  
+                        </div>
                         <h4>Heavy Metal</h4>
                         <div class="text_gray describtion">Subtitle</div>
                     </div>
                     <div class="col_recently text_align">
-                        <img class="covers" src="./img/stranger.jpeg" alt="">
+                        <div class="position_relative">
+                            <img class="covers" src="./img/stranger.jpeg" alt=""> 
+                            <div class="play_absolute"><i class="fa-regular fa-circle-play play_middle"></i></div>  
+                        </div>
                         <h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
                         <div class="text_gray describtion">Kyle Dixon & Michael Stein</div>
                     </div>
                     <div class="col_recently text_align">
-                        <img class="covers" src="./img/aquietplace.jpeg" alt="">
+                        <div class="position_relative">
+                            <img class="covers" src="./img/aquietplace.jpeg" alt=""> 
+                            <div class="play_absolute"><i class="fa-regular fa-circle-play play_middle"></i></div>  
+                        </div>
                         <h4>A quaiet place</h4>
                         <div class="text_gray describtion">Subtitle</div>
                     </div>
                     <div class="col_recently text_align">
-                        <img class="covers" src="./img/split.jpeg" alt="">
+                        <div class="position_relative">
+                            <img class="covers" src="./img/split.jpeg" alt=""> 
+                            <div class="play_absolute"><i class="fa-regular fa-circle-play play_middle"></i></div>  
+                        </div>
                         <h4>Split</h4>
                         <div class="text_gray describtion">Subtitle</div>
                     </div>
                     <div class="col_recently text_align">
-                        <img class="covers" src="./img/cure.jpeg" alt="">
+                        <div class="position_relative">
+                            <img class="covers" src="./img/cure.jpeg" alt=""> 
+                            <div class="play_absolute"><i class="fa-regular fa-circle-play play_middle"></i></div>  
+                        </div>
                         <h4>A cure for wellness</h4>
                         <div class="text_gray describtion">Subtitle</div>
                     </div>
                     <div class="col_recently text_align">
-                        <img class="covers" src="./img/sinister.jpeg" alt="">
+                        <div class="position_relative">
+                            <img class="covers" src="./img/sinister.jpeg" alt=""> 
+                            <div class="play_absolute"><i class="fa-regular fa-circle-play play_middle"></i></div>  
+                        </div>
                         <h4>Sinister</h4>
                         <div class="text_gray describtion">Subtitle</div>
                     </div>
@@ -233,11 +251,17 @@
             <div class="container_main">
                 <div class="row_33 flex">
                     <div class="col_50 margin text_align">
-                        <img class="covers" src="./img/radar.jpeg" alt="">
+                        <div class="position_relative">
+                            <img class="covers" src="./img/radar.jpeg" alt=""> 
+                            <div class="play_absolute"><i class="fa-regular fa-circle-play play_middle"></i></div>  
+                        </div>
                         <h4>Release Radar</h4>
                     </div>
                     <div class="col_50 margin text_align">
-                        <img class="covers" src="./img/mixdaily.jpeg" alt="">
+                        <div class="position_relative">
+                            <img class="covers" src="./img/mixdaily.jpeg" alt=""> 
+                            <div class="play_absolute"><i class="fa-regular fa-circle-play play_middle"></i></div>  
+                        </div>
                         <h4>Daily Mix 1</h4>
                     </div>
                 </div>
@@ -250,11 +274,17 @@
             <div class="container_main">
                 <div class="row_33 flex">
                     <div class="col_50 margin text_align">
-                        <img class="covers radius" src="./img/youg.jpeg" alt="">
+                        <div class="position_relative">
+                            <img class="covers radius" src="./img/youg.jpeg" alt=""> 
+                            <div class="play_absolute radius"><i class="fa-regular fa-circle-play play_middle"></i></div>  
+                        </div>
                         <h4>Lana del Rey</h4>
                     </div>
                     <div class="col_50 margin text_align">
-                        <img class="covers radius" src="./img/einaudi.jpeg" alt="">
+                        <div class="position_relative">
+                            <img class="covers radius" src="./img/einaudi.jpeg" alt=""> 
+                            <div class="play_absolute radius"><i class="fa-regular fa-circle-play play_middle"></i></div>  
+                        </div>
                         <h4>Ludovico Elnaudi</h4>
                     </div>
                 </div>
