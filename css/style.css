@@ -102,6 +102,13 @@ a:hover{
 .right_side{
     width: 100%;
 }
+.green_line{
+    border-left: 2px solid greenyellow;
+    position: absolute;
+    top: 0;
+    left: -42px;
+    height: 20px;
+}
 .fa-sharp{
     font-size: 45px;
     vertical-align: middle;
@@ -136,11 +143,6 @@ hr{
 .size_name{
     font-size: 17px;
     padding-left: 5px;
-}
-.border{
-    border-left: 1px solid greenyellow;
-    position: relative;
-    left: 0;
 }
 /* FINE SIDEBAR */
 /* INIZIO HEADER */
@@ -252,9 +254,9 @@ header{
  }
  .col_static.play{
     width: 40%;
-    font-size: 25px;
+    font-size: 26px;
  }
- .col_static.play:hover{
+ .play_song:hover{
     transform: scale(1.3);
 }
 
@@ -323,9 +325,7 @@ header{
  .duration:hover .ball_level, .duration:hover .green_level {
     display: block;
 }
-
 /* FINE BOTTOMBAR */
-
 /* INIZIO MAIN */
 main{
     background-color: #1a1f25;
@@ -361,6 +361,7 @@ nav.flex{
 .covers{
     width: 100%;
     display: block;
+    margin-bottom: 10px;
 }
 .describtion{
     font-size: 10px;
