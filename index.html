@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Spotify</title>
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
@@ -110,36 +110,64 @@
         <div class="container_bottombar">
             <div class="row_bottombar flex">
                 <div class="col_bottombar_20 first flex">
-                    <!-- Inizio prima colonna da 30% -->
+                    <!-- Inizio prima colonna da 20% -->
                     <div class="content_first_left flex">
                             <!-- Inizio contenuti della prima colonna (destra)-->
                             <div class="col_first_left">
-
+                                <img class="covers" src="./img/sinister.jpeg" alt="">
                             </div>
                             <div class="col_first_right">
-
+                                <h4 class="h4_bottombar">Sinister</h4>
+                                <p class="text_gray describtion">Brano Nome</p>
                             </div>
                     </div>
                     <div class="content_first_right flex">
                         <!-- Inizio contenuti della prima colonna (sinistra)-->
-                        <div class="col_50">
-
+                        <div class="col_50 text_gray">
+                            <i class="fa-regular fa-heart"></i>
                         </div>
-                        <div class="col_50">
-
+                        <div class="col_50 text_gray">
+                            <i class="fa-regular fa-folder"></i>
                         </div>
 
                     </div>
                 </div>
                 <div class="col_bottombar_60 flex">
                     <!-- Inizio colonna da 60% in mezzo -->
-                    <div class="col_middle_static"></div>
-                    <div class="col_middle_adaptive"></div>
+                    <div class="col_middle_static flex">
+
+                        <div class="col_static"><i class="fa-solid fa-shuffle"></i></div>
+                        <div class="col_static"><i class="fa-solid fa-backward-step"></i></div>
+                        <div class="col_static play"><i class="fa-regular fa-circle-play"></i></div>
+                        <div class="col_static"><i class="fa-solid fa-forward-step"></i></div>
+                        <div class="col_static"><i class="fa-solid fa-rotate-right"></i></div>
+
+                    </div>
+                    <div class="col_middle_adaptive flex">
+                        <div class="minute describtion">0:25</div>
+                        <div class="duration">
+                            <div class="bar_volume"></div>
+                            <div class="level_volume"></div>
+                            <div class="green_level"></div>
+                            <div class="ball_level"></div>
+                        </div>
+                        <div class="minute describtion">4:35</div>
+                    </div>
                 </div>
                 <div class="col_bottombar_20 last flex">
                     <!-- Inizio colonna da 20% finale -->
-                    <div class="container_last">
-
+                    <div class="icon_bottombar">
+                        <ul class="ul_bottombar flex">
+                            <li class="li_bottombar"><i class="fa-solid fa-list"></i></li>
+                            <li class="li_bottombar"><i class="fa-solid fa-display"></i></li>
+                            <li class="li_bottombar"><i class="fa-solid fa-volume-high"></i></li>
+                        </ul>  
+                    </div>
+                    <div class="volume">
+                        <div class="bar_volume"></div>
+                        <div class="level_volume"></div>
+                        <div class="green_level"></div>
+                        <div class="ball_level"></div>
                     </div>
                 </div>
             </div>
@@ -233,9 +261,6 @@
             </div>
 
         </section>
-
-        
-
     </main>
 </body>
 </html>

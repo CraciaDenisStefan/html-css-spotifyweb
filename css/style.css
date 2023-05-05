@@ -59,7 +59,6 @@ body{
 .install{
     width: calc(100% - 10px);
     height: 80px;
-   
     margin: 5px;
     z-index: 1;
 }
@@ -140,7 +139,6 @@ header{
 /* INIZIO BOTTOMBAR */
 .bottombar{
     width: 100vw;
-    background-color: red;
     height: 80px;
     position: fixed;
     bottom: 0;
@@ -152,42 +150,46 @@ header{
 }
 .col_50{
     width: 50%;
+    text-align: center;
+    font-size: 13px;
 }
 .container_bottombar{
-    width: 99%;
+    width: 100%;
     margin: 0 auto;
-    background-color: blue;
+    background-color: rgb(39, 39, 39);
 }
 /* Inizio prima colonna da 20% */
 .row_bottombar{
-    margin-top: 10px;
+    justify-content: space-between;
 }
 .col_bottombar_20{
     width: 20%;
     height: 80px;
-    background-color: yellow;
     align-items: center;
 }
 .col_bottombar_60{
-    width: 60%;
+    width: 70%;
     height: 80px;
-    background-color: green;
+}
+.col_bottombar_20.first.flex{
+    width: 200px;
 }
 .content_first_right{
     width: 30%;
+    margin-bottom: 10px;
+}
+.h4_bottombar{
+    font-size: 12px;
 }
 .content_first_left{
     width: 70%;
 }
 .col_first_left{
     width: 30%;
-    background-color: blueviolet;
-    height: 20px;
 }
 .col_first_right{
     width: 70%;
-    background-color: rgb(138, 124, 151);
-    height: 20px;
+    margin-left: 10px;
 }
  /* Inizio colonna da 60% in mezzo  */
  .col_bottombar_60.flex{
@@ -197,27 +199,90 @@ header{
  }
  .col_middle_static{
     width: 200px;
-    height: 20px;
-    background-color: yellowgreen;
+   
+    text-align: center;
+    align-items: center;
  }
- .col_middle_adaptive{
-    width: 70%;
-    height: 20px;
-    background-color: burlywood;
+ .col_static{
+    width: 20%;
+    font-size: 18px;
+    vertical-align: middle;
  }
- /* Inizio colonna da 20% finale */
- .container_last{
-    width: 100%;
-    height: 20px;
-    background-color: green;
+ .col_static.play{
+    width: 40%;
+    font-size: 25px;
  }
 
+ .col_middle_adaptive{
+    width: 60%;
+ }
+ /* Inizio colonna da 20% finale */
+
+ .ul_bottombar{
+    list-style-type: none;
+    justify-content: center;
+    width: 100%;
+    font-size: 13px;
+ }
+ .col_bottombar_20.last{
+    width: 200px;
+ }
+ .li_bottombar{
+    width: calc(100% / 3);
+ }
+ .icon_bottombar{
+    width: 50%;
+    text-align: center;
+ }
+ .volume{
+    width: 50%;
+    position: relative;
+    margin-bottom: 5px;
+ }
+ /* Inizio barra volume e minutaggio */
+ .bar_volume{
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    position: absolute;
+ }
+ .level_volume, .green_level{
+    width: 30%;
+    border: 2px solid rgba(255, 255, 255, 0.822);
+    border-radius: 10px;
+    position: absolute;
+ }
+ .green_level{
+    display: none;
+    border: 2px solid greenyellow;
+ }
+ .ball_level{
+    display: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 29%;
+    top: -6px;
+ }
+.volume:hover .ball_level, .volume:hover .green_level {
+    display: block;
+}
+
+.duration{
+    width: 100%;
+    position: relative;
+    margin: 6px 20px;
+ }
+ .duration:hover .ball_level, .duration:hover .green_level {
+    display: block;
+}
 
 /* FINE BOTTOMBAR */
 
 /* INIZIO MAIN */
 main{
-    width: 100vw ;
     background-color: #1a1f25;
     padding-top: 80px;
     padding-left: 200px;
@@ -305,6 +370,11 @@ nav.flex{
         width: 100%;
     }
     /* Fine main */
+    /* Inizio bottombar */
+    .content_first_right.flex{
+        flex-direction: column;
+    }
+    /* Fine bottombar */
     
 }
 @media screen and (max-width: 600px){
